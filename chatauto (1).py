@@ -44,7 +44,7 @@ with sr.Microphone() as source:
 
         sleep(7)
         pyautogui.click(x=1774,y=17)
-        os.startfile(r'C:\Users\jaypa\OneDrive\Desktop\WhatsApp.lnk')
+        os.startfile(r'C:\Users\username\WhatsApp.lnk')
         
         pyautogui.click(x=141,y=128,duration=2)
         pyautogui.typewrite(input_callcommand)
